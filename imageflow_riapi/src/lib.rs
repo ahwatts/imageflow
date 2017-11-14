@@ -1,4 +1,4 @@
-#![feature(conservative_impl_trait)]
+#![feature(conservative_impl_trait, option_filter)]
 
 
 #[macro_use] extern crate macro_attr;
