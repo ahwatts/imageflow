@@ -22,7 +22,7 @@ conanfile.pyc
 test_package/build/
 # Conan cargo wrapper
 conan_cargo_build.rs
-
+conanbuildinfo.txt
 
 #Generated for tests
 build/
