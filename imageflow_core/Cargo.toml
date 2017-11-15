@@ -58,7 +58,7 @@ imageflow_riapi = { path = "../imageflow_riapi", version = "*" }
 
 
 [dev-dependencies]
-hyper = { version = "*" }
+hyper = { version = "^0.10.0" }
 
 
 [build-dependencies]

@@ -51,8 +51,8 @@ unicase = "2"
 
 error-chain = "*"
 
-hyper = "*"
-reqwest = "*"
+hyper = "^0.10.0"
+reqwest = "^0.6.0"
 hyper-native-tls = "*"
 
 backtrace = "0.3.2"
@@ -60,4 +60,4 @@ backtrace = "0.3.2"
 
 [target.'cfg(not(any(target_os = "windows", target_os = "macos")))'.dependencies]
 openssl = "*"
-hyper-openssl = "*"
+hyper-openssl = "^0.2.0"

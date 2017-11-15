@@ -36,7 +36,7 @@ router = "*"
 iron = "*"
 
 
-hyper = { version = "*", default-features = false }
+hyper = { version = "^0.10.0", default-features = false }
 threadpool = "1.0"
 
 imageflow_core = { path = "../imageflow_core", version = "*" }
@@ -57,7 +57,7 @@ staticfile = { git= "https://github.com/onur/staticfile", rev= "9f2ff7201eda6481
 conduit-mime-types = "*"
 url="*"
 hyper-native-tls="*"
-reqwest="*"
+reqwest="^0.6.0"
 
 [build-dependencies]
 cmake = "0.1.17"
