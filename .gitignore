@@ -323,3 +323,6 @@ FakesAssemblies/
 
 #Xamarin
 *.userprefs
+
+# Mac OS
+.DS_Store
